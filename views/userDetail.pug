@@ -1,5 +1,7 @@
 extends layouts/main
-include mixins/videoBlock
 
 block content
-    h1 userDetail
+    .user-profile
+        .user-profile__header
+            img.avatar(src=user.avatarUrl)
+            h4.profile__username=user.name

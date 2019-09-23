@@ -1,12 +1,14 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+
 dotenv.config();
 
-mongoose.connect(process.env.MONGO_URL,
-{
-    useNewUrlParser: true,
-    useFindAndModify: false
-});//그렇게 신경안써도 되는부분?
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true,
+  useFindAndModify: false,
+  useCreateIndex: true
+});
+// 그렇게 신경안써도 되는부분?
 
 const db = mongoose.connection;
 
