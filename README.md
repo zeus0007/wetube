@@ -1,12 +1,12 @@
 # WeTube
-
+2nd
 Cloning Youtube with Vanilla and NodeJS
 
 ## Pages:
 - [ ] Home
-- [x] Join
-- [x] Login
-- [X] Search
+- [ ] Join
+- [ ] Login
+- [ ] Search
 - [ ] User Detail
 - [ ] Edit Profile
 - [ ] Change Password

@@ -1,0 +1,7 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "youtube clone coding with nodeJS - nomadcoder Academy",
+  "main": "index.js",
+  "author": "zeus0007"
+}
